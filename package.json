@@ -1,0 +1,44 @@
+{
+    "name": "my-ts-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/my-ts.js",
+    "types": "./dist/types/index.d.ts",
+    "private": false,
+    "publisher": "wbjqiqi@163.com",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "keywords": [
+        "my-ts"
+    ],
+    "author": "13916486874@163.com",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^23.3.1",
+        "@types/node": "^10.5.5",
+        "clean-webpack-plugin": "^1.0.1",
+        "jest": "^24.9.0",
+        "prettier": "^1.16.4",
+        "ts-jest": "^23.0.1",
+        "ts-lint": "^4.5.1",
+        "ts-loader": "^5.3.3",
+        "tslint": "^5.11.0",
+        "tslint-loader": "^3.5.4",
+        "typescript": "^3.0.1",
+        "webpack": "^4.28.1"
+    },
+    "dependencies": {
+        "jquery": "^3.4.1",
+        "nel-neo-thinsdk": "^0.0.9",
+        "test": "^0.6.0"
+    }
+}

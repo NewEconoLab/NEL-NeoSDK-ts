@@ -1,0 +1,92 @@
+{
+  "bundle": {
+    "commonSourceDirectory": "..",
+    "sourceFiles": [
+      "../src/neo/UintVariable.ts",
+      "../src/neo/Uint64.ts",
+      "../src/neo/BigInteger.ts",
+      "../src/neo/Cosigner.ts",
+      "../src/neo/Fixed8.ts",
+      "../src/neo/Helper.ts",
+      "../src/neo/Long.ts",
+      "../src/neo/Map.ts",
+      "../src/neo/Promise.ts",
+      "../src/neo/Uint160.ts",
+      "../src/neo/Uint256.ts",
+      "../src/neo/WitnessScope.ts",
+      "../src/neo/Cryptography/Aes.ts",
+      "../src/neo/Cryptography/Base58.ts",
+      "../src/neo/Cryptography/CryptoKey.ts",
+      "../src/neo/Cryptography/ECCurve.ts",
+      "../src/neo/Cryptography/ECDsa.ts",
+      "../src/neo/Cryptography/ECFieldElement.ts",
+      "../src/neo/Cryptography/ECPoint.ts",
+      "../src/neo/Cryptography/RandomNumberGenerator.ts",
+      "../src/neo/Cryptography/Helper.ts",
+      "../src/neo/Cryptography/RIPEMD160.ts",
+      "../src/neo/Cryptography/Sha256.ts",
+      "../src/neo/IO/BinaryReader.ts",
+      "../src/neo/IO/BinaryWriter.ts",
+      "../src/neo/IO/Helper.ts",
+      "../src/neo/IO/ISerializable.ts",
+      "../src/neo/IO/Stream.ts",
+      "../src/neo/IO/MemoryStream.ts",
+      "../src/neo/IO/Caching/ITrackable.ts",
+      "../src/neo/IO/Caching/TrackState.ts",
+      "../src/neo/IO/Caching/TrackableCollection.ts",
+      "../src/nep6/nep6wallet.ts",
+      "../src/thinneo/opcode.ts",
+      "../src/thinneo/ApplicationEngine.ts",
+      "../src/thinneo/Base64.ts",
+      "../src/thinneo/Contract.ts",
+      "../src/thinneo/NeoTransaction.ts",
+      "../src/thinneo/ScriptBuilder.ts",
+      "../src/thinneo/helper.ts",
+      "../src/thinneo/TransAction.ts",
+      "../src/thinneo/randomaccessstack.ts",
+      "../src/thinneo/avm2asm/avm2asm.ts",
+      "../src/thinneo/avm2asm/byteReader.ts",
+      "../src/thinneo/avm2asm/op.ts",
+      "../src/token/BaseToken.ts",
+      "../src/token/GAS.ts",
+      "../src/token/NEO.ts"
+    ],
+    "js": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 597,
+          "kind": "emitHelpers",
+          "data": "typescript:extends"
+        },
+        {
+          "pos": 599,
+          "end": 932,
+          "kind": "emitHelpers",
+          "data": "typescript:spreadArrays"
+        },
+        {
+          "pos": 934,
+          "end": 327503,
+          "kind": "text"
+        }
+      ],
+      "sources": {
+        "helpers": [
+          "typescript:extends",
+          "typescript:spreadArrays"
+        ]
+      }
+    },
+    "dts": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 49062,
+          "kind": "text"
+        }
+      ]
+    }
+  },
+  "version": "3.7.4"
+}
